@@ -1,0 +1,17 @@
+{
+  "name": "saml2-proxy",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "connect-ensure-login": "0.1.1",
+    "express": "3.2.5",
+    "http-proxy": "0.10.x",
+    "passport": "0.2.x",
+    "passport-saml": "^0.5.2",
+    "winston": "0.7.x",
+    "winston-stderr": "0.0.3"
+  }
+}
